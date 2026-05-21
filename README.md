@@ -63,20 +63,4 @@ AWS_REGION=us-east-1
 DYNAMODB_SOIL_TABLE_NAME=mesonet-soil-records
 ```
 
-If you are testing DynamoDB locally, your computer also needs AWS credentials. The app can use credentials from the normal AWS SDK credential chain, such as:
 
-- AWS CLI credentials from `aws configure`
-- an AWS profile named with `AWS_PROFILE`
-- environment variables provided by the terminal or hosting platform
-
-Do not commit real AWS access keys to the project.
-
-The actual DynamoDB table, AWS permissions, and cloud deployment settings are handled outside this project.
-
-## Commands
-
-```bash
-npm run dev
-npm run lint
-npm run build
-```
