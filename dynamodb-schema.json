@@ -1,0 +1,57 @@
+{
+  "table": {
+    "tableName": "mesonet-soil-records",
+    "partitionKey": {
+      "name": "id",
+      "type": "S"
+    },
+    "sortKey": null
+  },
+  "itemSchema": {
+    "id": "string",
+    "station": "string",
+    "county": "string",
+    "siteId": "string",
+    "pedonId": "string",
+    "descriptionDate": "string",
+    "soilSeries": "string",
+    "classification": "string",
+    "latitude": "string",
+    "longitude": "string",
+    "mapUnit": "string",
+    "slope": "string",
+    "drainageClass": "string",
+    "parentMaterial": "string",
+    "sourceDocument": "string",
+    "reviewStatus": "Imported | Needs Review | Complete",
+    "reviewerNotes": "string",
+    "validationWarnings": ["string"],
+    "rawText": "string",
+    "horizons": [
+      {
+        "name": "string",
+        "depth": "string",
+        "texture": "string",
+        "topDepthCm": "string",
+        "bottomDepthCm": "string",
+        "topDepthIn": "string",
+        "bottomDepthIn": "string",
+        "sandPercent": "string",
+        "siltPercent": "string",
+        "clayPercent": "string",
+        "ph": "string",
+        "acidity": "string",
+        "color": "string",
+        "structure": "string",
+        "consistence": "string",
+        "roots": "string",
+        "boundary": "string",
+        "fragments": "string",
+        "clayFilms": "string",
+        "electricalConductivity": "string",
+        "description": "string"
+      }
+    ],
+    "updatedAt": "string"
+  }
+}
